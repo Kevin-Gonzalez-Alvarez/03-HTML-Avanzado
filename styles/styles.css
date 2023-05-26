@@ -1,0 +1,94 @@
+table, th, td{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    text-align: center;
+    border-style: dashed;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+
+table{
+    width: 300px;
+    /* height: 300px; */
+}
+
+caption{
+    color: gold;
+}
+
+#hora1{
+    color: blueviolet;
+    background-color: cornflowerblue;
+}
+#hora2{
+    color: red;
+    background-color: rgb(27, 255, 255);
+}
+#hora3{
+    color: blue;  
+    background-color: darkorchid;
+}
+
+#horario{
+    color: white;
+    background-color: darkblue;
+}
+
+#css{
+    color: burlywood;
+    background-color: darkcyan;
+}
+
+#js{
+    color: rgb(47, 18, 75);
+    background-color: rgb(64, 156, 156);
+}
+
+#html{
+    color: yellow;
+    background-color: green;
+}
+
+#bs{
+    color: fuchsia;
+    background-color: indigo;
+}
+
+#react{
+    color: aqua;
+    background-color: blue;
+}
+#bb{
+    color: rgb(111, 28, 28);
+    background-color:gray
+    
+}
+#bi{
+    color: gold;
+    background-color:rgb(37, 15, 85)
+
+}
+#ba{
+    color: goldenrod;
+    background-color:rgb(56, 6, 6)
+}
+#bs{}
+
+p{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#moltres{
+    width: 50px;
+    color: black;
+}

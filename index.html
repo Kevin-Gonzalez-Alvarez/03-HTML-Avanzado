@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+
+    <link rel="stylesheet" href="/styles/styles.css">
+
+
+
+</head>
+<body>
+    
+    <!-- 
+
+        Tablas en HTML
+
+        Una tabla es un conjunto de filas y columnas que contienen informacion necesaria. 
+        Nos sirven para organizar y tener una mejor visibilidad de los elementos.
+
+        -- Celda: Es una interseccion entre una fila y columna que contiene información necesaria.
+        En HTML definimos las celdas utilizando la etiqueta <td></td>
+
+        -- Filas: Las filas se definen mediante la etiqueta <tr></tr>
+
+        -- Emcanaezados de tablas.
+        Se definen los encabezados de tala mediante la etiqueta <th></th>
+
+        Para iniciar una tabla en HTML, de define la etiqueta <table></table> y se divide en dos partes:
+            - Cabeza de la tabla <thead></thead>
+            - Cuerpo de la tabla <tbody></tbody>
+
+    -->
+    <p>Tabla de personas</p>
+    <table>
+        <thead>
+            <tr> <!-- Fila 1 -->
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- Fila 2-->
+                <td>Pedro Infante</td>
+                <td>23</td>
+                <td>México</td>
+            </tr>
+            <tr> <!-- Fila 3-->
+                <td>Paulina Ensastiga</td>
+                <td>19</td>
+                <td>Portugal</td>
+            </tr>
+            <tr> <!-- Fila 4-->
+                <td>Daniel Corona</td>
+                <td>22</td>
+                <td>Rusia</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!-- Tablita 2 
+    Crear una tabla donde muestres el nombre, el apellido del entrenador pokemon y si pokemon base
+    -->
+
+    <!-- <p>Tabla de entrenadores pokemon</p> -->
+    <table>
+        <caption>Maestros pokemon</caption>
+        <thead>
+            <tr> <!-- Fila 1 -->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Pokemon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- Fila 2-->
+                <td>Osvaldo</td>
+                <td>Morales</td>
+                <td> <a href="https://www.wikidex.net/wiki/Totodile" target="_blank">Tottodaile</a> </td>
+            </tr>
+            <tr> <!-- Fila 3-->
+                <td>Nancy</td>
+                <td>Pérez</td>
+                <td><a href="https://www.wikidex.net/wiki/Moltres" target="_blank"> Moltres</a><br><img id="moltres" src="/Moltres.png" alt=""></td>
+            </tr>
+            <tr> <!-- Fila 4-->
+                <td>Hiram</td>
+                <td>Navarro</td>
+                <td>Mew</td>
+            <tr> <!-- Fila 5-->
+                <td>Kevin</td>
+                <td>González</td>
+                <td>Mewtwo</td>
+            </tr>
+        </tbody>
+    </table>
+    
+<!-- Instrucciones:
+Diseña un horario de clases de lunes a viernes con 3 horarios
+(8:00-9:00; 9:00-10:00; 10:11:00) con las materias que gustes. Agrega estilos para que tu horario quede chido
+-->
+
+<!-- <p>Tabla de personas</p> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<table>
+    <caption>Horario</caption>
+    <thead>
+        <tr id="horario"> <!-- Fila 1 -->
+            <th>Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> <!-- Fila 2-->
+            <td id="hora1">8:00-9:00</td>
+            <td id="html">HTML</td>
+            <td id="react">React</td>
+            <td id="bb">Brujeria Basica</td>
+            <td id="react">React</td>
+            <td id="html">HTML</td>
+        </tr>
+        <tr> <!-- Fila 3-->
+            <td id="hora2">9:00-10:00</td>
+            <td id="css">CSS</td>
+            <td id="html">HTML</td>
+            <td id="bi">Brujeria Intermedia</td>
+            <td id="html">HTML</td>
+            <td id="bs">Boostrap</td>
+        </tr>
+        <tr> <!-- Fila 4-->
+            <td id="hora3">10:00:11:00</td>
+            <td id="js">Javascript</td>
+            <td id="bs">Boostrap</td>
+            <td id="ba">Brujeria Avanzada</td>
+            <td id="js">Javascript</td>
+            <td id="css">CSS</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+<br>
+
+</body>
+</html>
