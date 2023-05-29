@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/styles/Registro.css">
+</head>
+<body>
+        <!-- Reto: Diseñar un formulario de registro para una pagina de videojuegos. ¿Qué necesitamos?
+    
+        - Nombre: text
+        - Apellido: text
+        - nombre de usuario: text
+        - correo electronico: email
+        - edad (minimo 18 años): number
+        - contraseña: password
+        - Boton con nombre "Registrarse"
+        - Boton que diga "Limpiar formulario"
+    -->
+    <h2>Bienvendio al registro de GAMELAND</h2>
+    <a href="/index.html">Regresar a pagina de inicio</a>
+    
+    <br>
+    <br>
+<!-- Cuando el atributo action esta en blanco, la solicitud de envio del formulario se enviara a la misma pagina. Es decir cuando se envie el formulario, los datos se enviaran al mismo URL.
+Para hacer que los datos del formulario se envien a una URL, especifica, debemos establecer dicha URL, dentro de action -->
+    <form action="/action_page.php" method="post" target="_blank">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="" id="nombre" required>
+
+        <br>
+        <br>
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="" id="apellido" required>    
+
+        <br>
+        <br>
+
+        <label for="user">Nombre de usuario:</label>
+        <input type="text" name="" id="user" required>
+    
+        <br>
+        <br>
+
+        <label for="correo_elect">Escribe tu correo electrónico:</label>
+        <input type="email" name="correo_elect" id="correo_elect" required>
+
+        <br>
+        <br>
+
+        <label for="edad">Escribe tu edad:</label>
+        <input  type="number" name="edad" id="edad" min="18" placeholder="Minimo 18 años" required>
+
+        <br>
+        <br>
+
+        <label lass="form6" for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" required>
+
+        <br>
+        <br>
+
+        <button type="submit">Registrarse</button>
+        
+        <br>
+        <br>
+        <button type="reset">Limpiar formulario</button>
+
+    </form>
+
+    <br>
+    <hr>
+
+<!-- Boton enviar
+type="submit" define un boton para enviar los datos del formulario a un controlador de formulario. El controlado de formulario suele ser un archivo con un script para procesar los datos de entrada.
+El controlador de formulario se especifica en el atributo action del formulario. 
+ -->
+
+ <h2> Inicia sesión</h2>
+<form action="/action_informacion.php" method="get">
+
+        <label for="user">Nombre de usuario:</label>
+        <input type="text" name="" id="user" required>
+
+        <br>
+        <br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" required>
+
+</form>
+   
+
+    <hr>
+    <br>
+    
+</body>
+</html>

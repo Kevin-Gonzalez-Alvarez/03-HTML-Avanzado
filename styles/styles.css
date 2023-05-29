@@ -5,11 +5,11 @@ table, th, td{
     border-style: dashed;
 }
 
-p{
+/* p{
     font-size: 20px;
     margin-bottom: 3px;
     font-weight: bold;
-}
+} */
 
 
 table{
@@ -77,18 +77,23 @@ caption{
     color: goldenrod;
     background-color:rgb(56, 6, 6)
 }
-#bs{}
+
 
 p{
     color: black;
 }
-a{
+/* a{
     text-decoration: none;
     color: black;
 
-}
+} */
 
 #moltres{
     width: 50px;
     color: black;
 }
+/* 
+.form1{
+    color: gold;
+    background-color: blue;
+} */
